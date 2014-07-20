@@ -1,0 +1,111 @@
+body{
+    background-color: lightgray;
+}
+
+#loading{
+    display: none;
+}
+#comparison_table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.btn_controls{
+    margin-bottom: 5px;
+    color: white;
+}
+
+.turreted_field,
+.non_turreted_field{
+    display: none;
+}
+
+.tank_filter{
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.nation{
+    height: 20px;
+    width: 48px;
+}
+
+.tier{
+    color: gold;
+    background: silver;
+    width: 27px;
+}
+
+.class{
+    height: 17px;
+    width: 26px;
+}
+
+.active{
+    border: solid 1px yellow;
+}
+
+.filter_wrap{
+    width: 160px;
+    margin: 0 auto;
+}
+
+.module_selects{
+    display: none;
+    /*text-align: left;*/
+}
+
+#modal{
+    background: grey;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    display: none;
+}
+
+#report_link{
+    text-decoration: underline;
+    color: maroon;
+    cursor: pointer;
+}
+
+#feedback_pop{
+    display: none;
+    position: absolute;
+    background: lightgray;
+    padding: 10px;
+    border: 2px solid red;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#cancel_btn{
+    margin-right: 40px;
+}
+
+.usa{ background: url('../img/usa.png');}
+
+.china{ background: url('../img/china.png');}
+
+.germany{ background: url('../img/germany.png');}
+
+.ussr{ background: url('../img/russia.png');}
+
+.uk{ background: url('../img/uk.png');}
+
+.france{ background: url('../img/france.png');}
+
+.light{ background: url('../img/light.png');}
+
+.medium{ background: url('../img/medium.png');}
+
+.heavy{ background: url('../img/heavy.png');}
+
+.td{ background: url('../img/td.png');}
+
+.spg{ background: url('../img/spg.png') no-repeat;}
